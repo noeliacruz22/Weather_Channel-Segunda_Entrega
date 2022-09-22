@@ -1,0 +1,118 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #0a1f44;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+
+button,
+input {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: #ff1e42;
+}
+
+button:hover {
+    background: #c3112d;
+}
+
+.container {
+    background-color: white;
+    color: #1e2432;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 50px;
+    visibility : hidden;
+    margin: 50px auto;
+}
+
+.ciudades {
+    padding: 40px 10%; 
+}
+
+#ciudad {
+    font-size: 2rem;
+    color: #717681;
+}
+
+#temperatura {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 4rem;
+}
+
+#descripcion {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #717681;
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        padding: 30px;
+    }
+};
+@media screen and (max-width: 700px) {
+    .heading{
+            font-size: 3rem;
+    }
+};
+@media screen and (max-width: 500px) {
+    body {
+        padding: 15px;
+    }
+};

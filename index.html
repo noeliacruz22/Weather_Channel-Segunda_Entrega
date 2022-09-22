@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Segunda Entrega - Proyecto Final</title>
+</head>
+<body>
+    <div class="encabezado">
+    <h1>Weather Channel</h1>
+    <h3 id="texto">Hola!</h3>
+    <form id="formulario">
+    <input type="text" placeholder="Ingresa una ciudad" class="letras">
+    <button class="btnPrincipal" type="submit">ENVIAR</button>
+    </form>
+    </div>
+    <main>
+        <div class="contenedor">
+            <div class="card" style="width: 18rem;">
+                <img src="img/clima_agradable.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Córdoba</h5>
+                    <p class="card-text">El clima en la ciudad de Córdoba es agradable.</p>
+                    <a href="#" class="btn btn-primary">Agregar a ciudad favorita?</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/clima_lluvioso.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Santa Fe</h5>
+                    <p class="card-text">El clima en la ciudad de Santa Fe es lluvioso.</p>
+                    <a href="#" class="btn btn-primary">Agregar a ciudad favorita?</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/clima_caluroso.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Paraná</h5>
+                    <p class="card-text">El clima en la ciudad de Paraná es caluroso.</p>
+                    <a href="#" class="btn btn-primary">Agregar a ciudad favorita?</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/clima_nublado.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mendoza</h5>
+                    <p class="card-text">El clima en la ciudad de Mendoza es nublado.</p>
+                    <a href="#" class="btn btn-primary">Agregar a ciudad favorita?</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Calcular temperatura promedio</h2>
+            <form class="row gx-3 gy-2 align-items-center">
+                <div class="col-sm-3">
+                    <label class="visually-hidden" for="specificSizeInputName">Temp/Máx</label>
+                    <input type="text" class="form-control" id="specificSizeInputName" placeholder="Ingrese temperatura máxima">
+                </div>
+                <div class="col-sm-3">
+                    <label class="visually-hidden" for="specificSizeInputName">Temp/Min</label>
+                    <input type="text" class="form-control" id="specificSizeInputName" placeholder="Ingrese temperatura mínima">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                <h4 id="respuesta">Respuesta!</h4>
+            </form>
+        </div>
+    </main>
+    <script src="./miarchivo.js"></script>
+</body>
+</html>
